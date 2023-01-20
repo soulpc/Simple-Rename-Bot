@@ -22,7 +22,7 @@ class Bot(Client):
         bind_address = "0.0.0.0"
         port = "8080"
         await web.TCPSite(app, bind_address, port).start()   
-        print(f"{me.first_name} | @{me.username} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳...⚡️")
+        print(f"{me.first_name} | @{me.username} Started...⚡️")
        
     async def stop(self, *args):
        await super().stop()      
